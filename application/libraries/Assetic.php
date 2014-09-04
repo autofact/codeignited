@@ -163,4 +163,9 @@ class CI_Assetic {
     public function get_css_assets($debug) {
         return $this->get_assets('css', $debug);
     }
+
+    public function clear() {
+        $this->collections['js'] = array();
+        $this->collections['css'] = array();
+    }
 }
