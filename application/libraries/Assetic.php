@@ -108,7 +108,7 @@ class CI_Assetic {
                 $result[] = array('content' => $item->dump());
             else {
             	if (count($item->getFilters()) > 0) {
-            		$url = $item->getTargetPath() . ".$type";
+            		$url = $item->getSourceRoot() . '/' . $item->getTargetPath() . ".$type";
             		$item->setTargetPath($url);
             		$url = $this->config['static_dir'] . $url;
             		$this->writer->writeAsset($item);
