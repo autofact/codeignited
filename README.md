@@ -4,7 +4,7 @@ CodeIgnited
 This is an extension of the CodeIgniter framework, to include enhancements like:
 
 - A templating system (Smarty), with layouts
-- Stylus (.styl) and CoffeScript (.coffee) assets management
+- Stylus (.styl) and CoffeeScript (.coffee) assets management
 - Minification and concatenation of assets in production environment
 
 You'll need:
