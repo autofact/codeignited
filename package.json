@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "stylus": "~0.48.1",
+    "coffee-script": "~1.8.0"
+  }
+}
